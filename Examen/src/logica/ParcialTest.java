@@ -1,6 +1,5 @@
 package logica;
-/*
-import static org.junit.extensions.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -16,11 +15,11 @@ public class ParcialTest {
 	@Test
     public void testRaizDoble() {
         Parcial p = new Parcial();
-        double[] resultado = p.resolver(1, -2, 1);
+        double[] resultado = p.solver(1, -2, 1);
         assertEquals(1.0, resultado[0], 0.001);
         assertEquals(1.0, resultado[1], 0.001);
     }
 
 
 }
-*/
+

@@ -9,7 +9,7 @@ public class Parcial {
             throw new IllegalArgumentException("'a' no puede ser 0");
         }
         //lo que esta dentro de la raiz si esto es menor a cero darian raices negativas
-        double coso = b *b - 4 * a * c;
+        double coso =( b *b )- 4 * a * c;
         
         if (coso < 0) {
             throw new IllegalArgumentException("Discriminante negativo - raíces complejas");
